@@ -1,0 +1,13 @@
+- Instruction: 
+Please follow all bellow steps:
+
+1.composer update
+2.rename .env.example with .env
+3.configure database on .env file
+4.create a new database with name employees_db
+5.create new tables with: php artisan migrate
+6.create default user for system with: php artisan db:seed
+7.php artisan key:generate
+8.Execute: php artisan config:clear
+9.Execute: php artisan serve
+10.default usename: admin@gmail.com/admin
